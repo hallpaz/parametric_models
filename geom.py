@@ -4,7 +4,7 @@ from math import cos, sin
 def sphere(u, v, radius=1):
     return np.array([radius*cos(u)*sin(v), radius*sin(u)*sin(v), radius*cos(v)])
 
-def noisy_sphere(u, v, radius=1)
+def noisy_sphere(u, v, radius=1):
     return np.array([radius*cos(u)*sin(v), radius*sin(u)*sin(v), radius*cos(v)])
 
 def torus(u, v, radius=1):
